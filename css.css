@@ -1,0 +1,42 @@
+
+.container {
+    background-color:#000080;
+    border: 5px solid black;
+    width: 400px; 
+    height:450px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.customizer {
+    text-align: center;
+}
+
+.colors {
+    margin-bottom: 20px;
+}
+
+.color-btn {
+      width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px, 5px;
+}
+
+#umbrellaPreview {
+    position: relative;
+    display: inline-block;
+}
+
+#umbrellaImage, #logoPreview {
+    max-width: 400px;
+    max-height: 400px;
+}
